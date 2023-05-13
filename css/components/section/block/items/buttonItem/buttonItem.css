@@ -1,0 +1,65 @@
+.buttonItem {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  max-width: 50%;
+}
+
+.buttonItem-button {
+  border: none;
+  border-radius: 0.3rem;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  font-size: var(--medium-font-size);
+  cursor: pointer;
+  margin-top: 10%;
+  padding: 5px 4px 5px 4px;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.buttonItem-button:disabled {
+  background-color: grey;
+  cursor: auto;
+}
+
+.buttonItem-button-loading {
+  border: none;
+  border-radius: 0.3rem;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  font-size: var(--medium-font-size);
+  cursor: pointer;
+  margin-top: 10%;
+  display: flex;
+  padding: 2%;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.buttonItem-button-noInputs {
+  border: none;
+  border-radius: 0.3rem;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  font-size: var(--medium-font-size);
+  cursor: pointer;
+  padding: 0.6% 8%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.buttonItem-button-noInputs-loading {
+  border: none;
+  border-radius: 0.3rem;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  font-size: var(--medium-font-size);
+  cursor: pointer;
+  padding: 0.4% 14%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

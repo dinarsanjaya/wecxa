@@ -1,0 +1,5 @@
+.buttonItemInput {
+  margin-bottom: 2%;
+  padding: 6px 4px 6px 4px;
+  font-size: var(--small-font-size);
+}

@@ -1,0 +1,8 @@
+.dynamicContractDataItem {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--small-font-size);
+  margin: 10px 0 10px 0;
+}

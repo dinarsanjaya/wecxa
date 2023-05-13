@@ -1,0 +1,27 @@
+html,
+body,
+#root,
+.App {
+  height: 100%;
+  margin: 0;
+}
+
+:root {
+  --main-background-color: #151719;
+  --primary-color: #25272a;
+  --primary-color-hover: #323638;
+  --secondary-color: #2d6df8;
+  --secondary-color-hover: #1057f0;
+  --grey-bg-color: rgb(233, 233, 233);
+  --main-bg-color: #89daff;
+  --main-bg-white-color: #ffffff;
+  --main-bg-white-color-hover: #e9e9e9;
+  --dark-gray-color: rgb(136, 133, 133);
+  --small-font-size: 1.2rem;
+  --medium-font-size: 1.6rem;
+  --large-font-size: 1.8rem;
+  --x-large-font-size: 2.8rem;
+
+  --success-message-backgroundColor: #10bc00;
+  --error-message-backgroundColor: #dd1a00;
+}

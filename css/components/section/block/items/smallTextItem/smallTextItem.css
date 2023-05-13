@@ -1,0 +1,7 @@
+.smallTextItem {
+  /* font-size: var(--small-font-size); */
+  text-align: center;
+
+  margin-right: 4%;
+  margin-left: 4%;
+}

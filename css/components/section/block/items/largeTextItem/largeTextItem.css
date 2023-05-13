@@ -1,0 +1,6 @@
+.largeTextItem {
+  font-size: var(--x-large-font-size);
+  text-align: center;
+  margin-right: 2%;
+  margin-left: 2%;
+}
